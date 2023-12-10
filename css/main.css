@@ -1,0 +1,52 @@
+body {
+  font-family: "Libre Baskerville", serif;
+  color: #722c5d;
+  min-height: 100vh;
+  background-image: linear-gradient(#f9b9c5, #5d5d5d);
+}
+
+#caption {
+  text-align: center;
+}
+#caption h1 {
+  font-size: 4.375rem;
+  font-size: 700;
+}
+#caption p {
+  font-size: 1.5625rem;
+  padding-block: 20px;
+}
+
+#caption button {
+  padding: 15px 30px;
+  font-size: 2.1875rem;
+  background-color: #722c5d;
+  color: #faced6;
+  border-radius: 50px;
+  transition: 0.5s all ease-in-out;
+}
+
+#caption button:hover {
+  color: #722c5d;
+  background-image: radial-gradient(#faced6, #722c5d);
+  border: 2px solid #722c5d;
+  cursor: pointer;
+}
+
+#demo {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 3.125rem;
+}
+
+@media screen and (max-width:850px) {
+  html{
+    font-size: 13px;
+  }
+  #caption h1{
+    font-size: 3.125rem;
+  }
+  #demo{
+    font-size: 2.5rem;
+  }
+}
