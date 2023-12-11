@@ -1,6 +1,6 @@
 document.getElementById("caption").innerHTML = `<h1>Quote of the Day</h1>  
    <p>Press the button below to recieve a random quote!</p>
-   <button onclick = getQuote();>New Quote</button>
+   <button onclick = "getQuote()">New Quote</button>
 `;
 var prevNumber = -1;
 
@@ -41,9 +41,8 @@ function getQuote() {
       author: "― Mark Twain",
     },
     {
-      quote:
-        "“A friend is someone who knows all about you and still loves you.”",
-      author: "― Elbert Hubbard",
+      quote: "“The only way out of the labyrinth of suffering is to forgive.”",
+      author: "― John Green",
     },
     {
       quote: "“Knowing yourself is the beginning of all wisdom.”",
